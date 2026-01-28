@@ -13,7 +13,7 @@ import SheetSection from "../sheet/sheet-section";
 const SHEET_KEY = "SHEET_DASHBOARD_ADD";
 const DIALOG_KEY = "MY_DASHBOARD_DIALOG";
 
-export default function CreateDashboardSheet({ zIndex }: { zIndex?: boolean }) {
+export default function CreateDashboardSheet() {
   const {
     dashboardValue,
     setDashboardValue,

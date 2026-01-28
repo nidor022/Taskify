@@ -5,7 +5,7 @@ import {
   RemainProfileColor,
 } from "@/constants/profile-random-color";
 import { classnames } from "@/utils/classnames";
-import { colorFromString, localeLengthKR } from "@/utils/string-hashing";
+import { colorFromString } from "@/utils/string-hashing";
 import Image from "next/image";
 import { useMemo } from "react";
 import Typography from "../typography";
@@ -53,7 +53,6 @@ export default function Profile({
     return colorFromString(name, ProfileColorsArray);
   }, [colorIndex, name, isRemain]);
 
-  const visualLength = localeLengthKR(name);
   const spanClasses = styles.alignCenter;
 
   const profileClasses = classnames(

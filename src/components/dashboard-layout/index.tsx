@@ -61,8 +61,8 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         />
         <main className={styles.main}>{children}</main>
       </div>
-      <CreateDashboardSheet zIndex />
-      <AccountSettingModal zIndex />
+      <CreateDashboardSheet />
+      <AccountSettingModal />
     </div>
   );
 }

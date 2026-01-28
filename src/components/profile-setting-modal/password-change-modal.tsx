@@ -16,16 +16,13 @@ interface PasswordChangeModalProps {
 
 export default function PasswordChangeModal({
   modalKey,
-  zIndex,
 }: PasswordChangeModalProps) {
-  const { openModal } = useModal({ key: modalKey });
   const [password, setPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [newPasswordCheck, setNewPasswordCheck] = useState("");
   const [newPasswordErrorMessage, setNewPasswordErrorMessage] = useState("");
   const [newPasswordCheckErrorMessage, setNewPasswordCheckErrorMessage] =
     useState("");
-  const onClose = () => openModal(false);
   const [isSubmitButtonDisabled, setIsSubmitButtonDisabled] = useState(true);
   const [dialogMessage, setDialogMessage] = useState("");
   const DIALOG_KEY = "DIALOG_CHAGNE_PASSWORD";
@@ -84,7 +81,6 @@ export default function PasswordChangeModal({
 
   const handleSubmit = async () => {
     try {
-      const response = await changePassword({ password, newPassword });
       setDialogMessage("비밀번호가 성공적으로 변경되었습니다.");
     } catch (err) {
       const error = err as AxiosError<{ message?: string }>;

@@ -20,7 +20,7 @@ import styles from "./profile-setting-modal.module.css";
 const ACCOUNT_SETTING_MODAL_KEY = "ACCOUNT_SETTING_MODAL";
 const PASSWORD_CHANGE_MODAL_KEY = "PASSWORD_CHANGE_MODAL";
 
-export default function AccountSettingModal({ zIndex }: { zIndex: boolean }) {
+export default function AccountSettingModal() {
   const {
     isShowModal: isShowPasswordChangeModal,
     openModal: openPasswordChangeModal,

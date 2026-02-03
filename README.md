@@ -2,6 +2,9 @@
 
 https://taskify-amber-iota.vercel.app/
 
+<br/>
+<br/>
+<br/>
 
 ## 🛠 사용 기술
 
@@ -14,6 +17,10 @@ https://taskify-amber-iota.vercel.app/
   <img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white">
   <img src="https://img.shields.io/badge/prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black">
 </div>
+
+<br/>
+<br/>
+<br/>
 
 ## 📄 게발 내용
 
@@ -33,3 +40,11 @@ https://taskify-amber-iota.vercel.app/
 
 4. 스타일링 및 환경 설정
   CSS Modules: 컴포넌트 기반 스타일링을 위해 CSS Modules를 채택, 클래스 네임 충돌을 방지하고 스타일 캡슐화.
+
+<br/>
+<br/>
+<br/>
+
+## 랜딩 페이지
+
+<img width="1816" height="1092" alt="taskify" src="https://github.com/user-attachments/assets/7ea44718-b27f-459b-8cf6-2b6cb50ffba9" />

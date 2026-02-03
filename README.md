@@ -22,7 +22,7 @@ https://taskify-amber-iota.vercel.app/
 <br/>
 <br/>
 
-## 📄 게발 내용
+## 📄 개발 내용
 
 1. 대시보드 관리 및 카드 리스트 (무한 스크롤 구현)
   무한 스크롤 최적화: Intersection Observer API를 사용하여 컬럼별 카드 리스트의 무한 스크롤을 구현.
